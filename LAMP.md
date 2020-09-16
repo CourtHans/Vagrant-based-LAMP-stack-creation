@@ -76,11 +76,11 @@ rm Vagrantfile
 ```
 17. Next, add your new box into your vagrant install:
 ```
-vagrant box add examplebox examplename.box
+vagrant box add examplenamebox examplename.box
 ```
 18. Initialize a vagrant environment from our newly created box and spin it up:
 ```
-vagrant init examplebox
+vagrant init examplenamebox
 vagrant up
 ```
 If your vagrant box is having trouble connecting, you can click the green “Show” in Oracle VM and - within the console - enter the letter “s”
